@@ -6,13 +6,16 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
+
 namespace tpmodul7_kelompok_5
 {
-    internal class DataMahasiswa1302213016
+
+    internal class DataMahasiswaFasyaRaihanMaulana
     {
-        public void ReadJSON()
+        public void readJSON()
         {
-            string jsonString = File.ReadAllText(@"E:\#ME\KULIAH\TUGAS\S4\KPL\PRAKTIKUM\MOD7\TP_KPL_MODUL7_KELOMPOK_5\tpmodul7_kelompok_5\tp7_1_1302213016.json");
+          
+            string jsonString = File.ReadAllText(@"C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Pendahuluan\Tugas Pendahuluan 7\Zaky-Git-TP_KPL_MOD7_KELOMPOK_5\tpmodul7_kelompok_5\tp7_1_1302213116.json");
 
             dynamic jsonObject = JsonConvert.DeserializeObject(jsonString);
 
