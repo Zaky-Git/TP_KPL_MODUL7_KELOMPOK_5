@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace tpmodul7_kelompok_5
 {
-    internal class KuliahMahasiswa1302213016
+    internal class KuliahMahasiswa1302213116
     {
         public void ReadJSON()
         {
-            string jsonString = File.ReadAllText(@"E:\#ME\KULIAH\TUGAS\S4\KPL\PRAKTIKUM\MOD7\TP_KPL_MODUL7_KELOMPOK_5\tpmodul7_kelompok_5\tp7_2_1302213016.json");
+            string jsonString = File.ReadAllText(@"C:\Users\Raychan\Documents\KuliAhhh\Kuliah\Semester 4\Kontruksi Perangkat Lunak\Tugas Pendahuluan\Tugas Pendahuluan 7\TP_KPL_MODUL7_KELOMPOK_5\tpmodul7_kelompok_5\tp7_2_1302213116.json");
 
             dynamic jsonObject = JsonConvert.DeserializeObject(jsonString);
 
