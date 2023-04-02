@@ -1,5 +1,5 @@
 ﻿using tpmodul7_kelompok_5;
 
-DataMahasiswaFasyaRaihanMaulana objMhs = new DataMahasiswaFasyaRaihanMaulana();
+DataMahasiswa1302213116 objMhs = new DataMahasiswa1302213116();
 
 objMhs.readJSON();

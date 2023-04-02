@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 namespace tpmodul7_kelompok_5
 {
 
-    internal class DataMahasiswaFasyaRaihanMaulana
+    internal class DataMahasiswa1302213116
     {
         public void readJSON()
         {
