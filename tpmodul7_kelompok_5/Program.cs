@@ -1,8 +1,8 @@
 using tpmodul7_kelompok_5;
 
-KuliahMahasiswa1302210125 objMhs = new KuliahMahasiswa1302210125();
+KuliahMahasiswa1302210125 objMhs2 = new KuliahMahasiswa1302210125();
 
-objMhs.ReadJSON();
+objMhs2.ReadJSON();
 
 DataMahasiswa1302210125 bar = new DataMahasiswa1302210125();
 
@@ -28,6 +28,12 @@ KuliahMahasiswa1302213016 MhsReza2 = new KuliahMahasiswa1302213016();
 
 MhsReza2.ReadJSON();
 
-DataMahasiswa1302213016 MhsReza = new DataMahasiswa1302213016();
+DataMahasiswa1302213016 MhsReza = new DataMahasiswa1302213116();
 
 MhsReza.ReadJSON();
+
+DataMahasiswa1302213116 objRay = new DataMahasiswa1302213116();
+
+objRay.readJSON();
+
+
