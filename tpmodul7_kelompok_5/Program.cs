@@ -28,7 +28,7 @@ KuliahMahasiswa1302213016 MhsReza2 = new KuliahMahasiswa1302213016();
 
 MhsReza2.ReadJSON();
 
-DataMahasiswa1302213016 MhsReza = new DataMahasiswa1302213116();
+DataMahasiswa1302213016 MhsReza = new DataMahasiswa1302213016();
 
 MhsReza.ReadJSON();
 
